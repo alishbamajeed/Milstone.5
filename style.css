@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #dbcd4b;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #dbcd4b;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dbcd4b;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #86ca89;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.resume {
+  background-color: #292927;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px whitesmoke;
+  margin-top: 30px;
+}
+
+.resume h2, .resume h3 {
+  color: #e0bfbf;
+}
+
+.resume p {
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input, textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .resume {
+    padding: 15px;
+  }
+
+  .resume h2, .resume h3 {
+    font-size: 18px;
+  }
+
+  .resume p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  input, textarea {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .resume h2, .resume h3 {
+    font-size: 16px;
+  }
+
+  .resume p {
+    font-size: 12px;
+  }
+}
+.share-section {
+  margin-top: 20px;
+}
+
+input#resumeLink {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dbcd4b;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button#copyLink, button#downloadPDF {
+  background-color: #86ca89;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button#copyLink:hover, button#downloadPDF:hover {
+  background-color: #45a049;
+}
